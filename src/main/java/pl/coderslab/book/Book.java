@@ -1,6 +1,13 @@
 package pl.coderslab.book;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class Book {
+    @Id
+    @GeneratedValue
     private Long id;
     private String isbn;
     private String title;
@@ -15,6 +22,10 @@ public class Book {
         this.author = author;
         this.publisher = publisher;
         this.type = type;
+    }
+
+    public Book() {
+
     }
 
     public Long getId() {
@@ -64,4 +75,9 @@ public class Book {
     public void setType(String type) {
         this.type = type;
     }
+
+
+
+
+
 }
