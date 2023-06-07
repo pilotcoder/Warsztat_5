@@ -1,6 +1,14 @@
 package pl.coderslab.book;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Book {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String isbn;
     private String title;
@@ -17,13 +25,10 @@ public class Book {
         this.type = type;
     }
 
-    public Long getId() {
-        return id;
+    public Book() {
+
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getIsbn() {
         return isbn;
@@ -63,5 +68,13 @@ public class Book {
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
     }
 }
