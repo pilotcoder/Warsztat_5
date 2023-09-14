@@ -11,7 +11,7 @@ import pl.coderslab.book.BookService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/books")
+@RequestMapping("/books") //requestmapping
 public class BookController {
 
     private BookService bookService;

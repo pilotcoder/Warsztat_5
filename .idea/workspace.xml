@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae54081b-df2b-4004-892b-9718d6b9f976" name="Changes" comment="Działająca baza danych">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/app/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/coderslab/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/book/Book.java" afterDir="false" />
-    </list>
+    <list default="true" id="ae54081b-df2b-4004-892b-9718d6b9f976" name="Changes" comment="Działająca baza danych" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,8 +166,16 @@
       <option name="presentableId" value="Default" />
       <updated>1683909882264</updated>
       <workItem from="1683909884239" duration="5025000" />
-      <workItem from="1686139147765" duration="2326000" />
+      <workItem from="1686139147765" duration="2441000" />
     </task>
+    <task id="LOCAL-00001" summary="Działająca baza danych">
+      <created>1686141706461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686141706462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
